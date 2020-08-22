@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+}
+/* All the top styling is based on RED (responsive web design). Later down this file will be based styling 
+for the other media types of different screen sizes. For now we are styling for screen sizes based on around
+around the screen size of about 375 pixels. */
+
+/* element based styling */
+body {
+background-color: hsl(204, 43%, 93%);
+font-size: 16px;
+font-weight: 400;
+width: 80S%;
+line-height: 1.5em;
+}
+
+button {
+    color: white;
+    margin: auto;
+    width: 24em;
+    height: 4.3em;
+    background-color: hsl(71, 73%, 54%);
+    font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* class based styling */
+.community {
+    background-color: white;
+    text-align: left;
+    padding-left: 2em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    margin: 2.4em 1.1em 0 1.1em;
+}
+
+.subscription {
+    background-color: hsl(179, 62%, 43%);
+    margin-left: 1.1em;
+    margin-right: 1.1em;
+    text-align: left;
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 1.5em;
+    color: white;
+}
+
+.whyus {
+    background-color: hsl(173, 51%, 55%, 1);
+    margin-left: 1.1em;
+    margin-right: 1.1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: left;
+    color: white;
+}
+
+/* ID based styleing */
+#trial {
+    color: hsl(71, 73%, 54%);
+    font-weight: bold;
+}
+
+#welcome {
+    color: hsl(179, 62%, 43%);
+}
+
+#costs {
+    font-size: 2.6em;
+}
+
+#monthly {
+    color: gray;
+    font-size: 20px;
+    font-weight: lighter;
+}
+/* MEDIA QUERIES */
+
+/* MEDIA QUERIES - For screen size of 1024 pixels */
+
+/*MEDIA QUERIES - For screen size of 1440 pixels */
